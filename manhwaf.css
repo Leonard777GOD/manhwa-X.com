@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin:0px;
+    padding: 0px;
+}
+
+
+.logo {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border:solid 6px white;
+    font-size: 40px;
+    font-weight: bold;
+    font-style:italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding:4px 44px 6px 20px;
+    margin:0px;
+    border-radius: 0 240px 240px 0;  
+    cursor:  pointer;
+    position: fixed; /* Posicionamiento fijo para que el botón permanezca en la pantalla al desplazarse */
+            top: 6px; /* Distancia desde la parte superior */
+            left: 0px; 
+}
+
+.menu {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border:solid 5px white;
+    font-size: 30px;
+    font-weight: bold;
+    padding:4px 18px 8px 18px;
+    margin:0px 0 0 0px;
+    border-radius: 50px 50px 50px 50px;
+    cursor:  pointer;
+    position: fixed; /* Posicionamiento fijo para que el botón permanezca en la pantalla al desplazarse */
+            top: 6px; /* Distancia desde la parte superior */
+            right: 6px; /* Distancia desde la derecha */
+    
+}
+
+.padre{
+    width: 100%;
+}
+
+
+.portada-container {
+    background-color: #1c1c1c; /* Cambia este color al que desees */
+    padding: 20px 80px 30px 20px; /* Ajusta el espaciado según tu preferencia */
+    margin: 120px 200px 30px 150px; /* Ajusta los márgenes según tus necesidades */
+    display: flex; /* Utiliza flexbox para alinear la imagen y el párrafo */
+    border: 2px solid white;
+}
+
+
+.portada1 {
+    margin:0;
+    width: 200px;
+    margin-right: 0px; /* Ajusta el margen derecho según sea necesario */
+}
+
+
+.titulo1 {
+    font-size: 38px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.descripcion1 {
+    color:white;
+    font-size: 19px;
+    margin-left: 20px;
+
+}
+
+.cajadecap1 {
+    background-color: #1c1c1c;
+    border: 2px solid white;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    padding:6px 26px 6px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+footer {
+    color:white;
+    margin: 30px 10px 0 20px;
+    bottom:8px;
+    font-weight: bold;
+}

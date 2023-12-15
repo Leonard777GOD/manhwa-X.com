@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.logo {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border:solid 6px white;
+    font-size: 40px;
+    font-weight: bold;
+    font-style:italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding:4px 44px 6px 20px;
+    margin:0px;
+    border-radius: 0 240px 240px 0;  
+    cursor:  pointer;
+ /* Posicionamiento fijo para que el botón permanezca en la pantalla al desplazarse */
+            top: 6px; /* Distancia desde la parte superior */
+            left: 0px; 
+}
+
+.menu {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border:solid 5px white;
+    font-size: 30px;
+    font-weight: bold;
+    padding:6px 18px 8px 18px;
+    margin:0px 0 0 0px;
+    border-radius: 50px 50px 50px 50px;
+    cursor:  pointer;
+    position: fixed; /* Posicionamiento fijo para que el botón permanezca en la pantalla al desplazarse */
+            top: 6px; /* Distancia desde la parte superior */
+            right: 6px; /* Distancia desde la derecha */
+    
+}
+
+h1 {
+    color: rgb(255, 163, 163);
+    text-align: center;
+    font-size: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logoymenu {
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    
+}
+
+img {
+    width: 100%;
+}
+.contmanhwa {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    border:14px solid rgb(255, 163, 163);
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botones {
+    width: auto;
+    height: auto;
+}
+
+.anterior {
+    font-size: 97%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 163, 163);
+    cursor: pointer;
+}
+
+.listadecaps {
+    font-size: 96.7%;
+    background-color:rgb(255, 163, 163);
+    color: black;
+    cursor: pointer;
+    
+}
+
+.siguiente {
+    font-size: 97%;
+    background-color: rgb(255, 163, 163);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+footer {
+    color:white;
+    margin: 30px 10px 0 20px;
+    bottom:8px;
+    font-weight: bold;
+}
